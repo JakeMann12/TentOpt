@@ -6,8 +6,6 @@ Created on Sat Jan 22 20:05:25 2022
 
 @author: jmann
 
-Fuck Line Lickers and Sesame Street
-
 2 at all times during the day
 30 minute windows (except for night)
 equalize open windows- close to same time, same number of nights especially
