@@ -7,8 +7,6 @@ Created on Sun Dec 11 16:32:32 2022
 SCHEDULER MK2
 
 That jmann kid is a clown lol
-
-Fuck line lickers and sesame street still
 """
 
 #Starting Info
