@@ -35,7 +35,7 @@ def nights(daylist):
         for j in range(len(a)):
             fuck = np.append(fuck,int(a[j]))
         fuck = fuck.astype(int)
-        fuck = list(fuck) #if anyone besides me ever reads this, stfu
+        fuck = list(fuck) #if anyone besides me ever reads this, no u didnt :)
         if len(fuck) >= nightnum:
             q = ran.sample(fuck,nightnum) #selects nightnum worth of indexes from var fuck
             for k in q:
