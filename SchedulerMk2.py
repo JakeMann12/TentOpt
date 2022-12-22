@@ -66,14 +66,19 @@ df = df[0:20][df.columns.drop(list(df.filter(regex='Unnamed')))] ##SKIPS UNTITLE
 def hourperson():
     #gives choice list of Hours - name earlier in list means less hours so far ergo should be given     
     namelist = sorted(stats, key=lambda x: stats[x]['Hours'], reverse=True)
-    collist = namelist["ColIndex"] #FIX ME
-    return collist
+    finlist = [stats[name]['ColIndex'] for name in namelist]
+    return finlist
     
 def nightperson():
     #ditto with nights
     namelist = sorted(stats, key=lambda x: stats[x]['Nights'], reverse=True)
-    return namelist
+    finlist = [stats[name]['ColIndex'] for name in namelist]
+    return finlist
 
+def assignperson():
+
+    selected_float = np.random.choice(floats, p=weights)
+    pass
 
 
 
@@ -103,7 +108,8 @@ Nights will be randomly assigned based on weighted average of
 """
 
 
-
+if __name__ == "__main__":
+    print(hourperson())
 
 
 
