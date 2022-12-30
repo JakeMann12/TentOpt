@@ -6,7 +6,7 @@ Created on Sun Dec 11 16:32:32 2022
 
 SCHEDULER MK2
 
-That jmann kid is a clown lol
+That jmann kid is a clown lol 
 """
 
 #Starting Info
