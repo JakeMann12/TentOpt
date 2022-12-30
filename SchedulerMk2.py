@@ -41,6 +41,7 @@ nightnum = 1 #HOW MANY HAVE TO BE THERE DURING NIGHT Black = 10, Blue = 6, White
 dayslots = [0]*peeps
 totnights = [0]*peeps
 
+
 #%% MAIN- Load and manipulate data
 #Load data from excel and create DataFrame
 df = pd.read_excel("SampleSchedule.xlsx", index_col=0) #0=available, -1=not
